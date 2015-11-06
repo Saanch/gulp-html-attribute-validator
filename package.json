@@ -1,0 +1,35 @@
+{
+  "name": "gulp-html-attribute-validator",
+  "version": "1.0.0",
+  "description": "Validates the HTML attributes according to the custom criteria.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saanch/gulp-html-attribute-validator.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "html-validator",
+    "attribute",
+    "validator"
+  ],
+  "author": "Saanch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saanch/gulp-html-attribute-validator/issues"
+  },
+  "homepage": "https://github.com/Saanch/gulp-html-attribute-validator#readme",
+  "dependencies": {
+    "gulp-htmlparser": "0.0.4",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.7",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
+}
